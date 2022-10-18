@@ -40,8 +40,8 @@ h1{
        .style {
         margin-right: 2rem;
         font-size: 1.5vw;
-        text-decoration: none;
-        color: black;
+        text-decoration:underline;
+        color:#1C6EA4;
         
 
        }
@@ -62,8 +62,10 @@ h1{
 
           }
           .comm{
-            color:black;
+            color:#1C6EA4;
             margin:0px 30px 10px 0px;
           }
-     
+     .comm:hover{
+    opacity: ,5;
+  }
   
