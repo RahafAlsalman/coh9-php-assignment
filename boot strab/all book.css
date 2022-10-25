@@ -1,0 +1,15 @@
+
+
+header{
+
+height: 400px;
+background-image:url("./asetss/img/the-end-of-a-book-1120x1120.jpeg");
+background-repeat: no-repeat;
+background-position:center;
+background-size: cover;
+margin-bottom: 2.5rem;
+  }
+  #back {
+    background-color: antiquewhite;
+ }
+ 

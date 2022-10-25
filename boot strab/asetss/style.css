@@ -1,0 +1,58 @@
+body{
+    height: 70vh;
+}
+
+    header{
+     height: 560px;
+    background-image:url("../asetss/img/that.webp");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    margin-bottom: 2.5rem;
+
+}
+.d-flex{
+    width:12rem;
+    height: 2rem;
+}
+
+
+
+      #container{
+        height: 10rem;
+        width: 10rem;
+        background-color: #ffffffc7;
+          }
+          /*
+        #container>form{
+            display: 
+            justify-content: center;
+            */
+        }
+      }
+      #margin {  
+        margin-left: -3rem;
+
+      }
+    .card{
+        width: 100%;
+      }
+      main{
+        margin:auto;
+      padding-left: 7.5rem;
+}
+main.h1{
+  margin-right: -3rem;
+  background-color: antiquewhite;
+}
+      }
+      #top-cours{
+        margin-left: 10rem;
+      }
+      .position-absolute{
+        background-color: yellow;
+        color: black;
+      }
+       footer{
+background-color::aliceblue;
+       }
