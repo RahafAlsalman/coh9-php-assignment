@@ -1,71 +1,70 @@
 body{ 
-  margin: 7rem auto;
-  width: 110vh;
-  background-color: grey;
-  color:#fff
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background-clip: border-box;
-  
-  background-repeat:no-repeat;
-  background-size: cover;
-  
-}
-
-h1{
-    text-align: center;
-    margin-bottom: 2rem;
-    font-size: 4rem;
-    border: 18px ridge #1C6EA4
-       }
-       
-       img{
-        border: 5px solid #555;
-        border-radius: 5px;
-       cursor: pointer;
-       transition: 0.3s;
-       border-radius: 50%;
-       display: block;
-      
-       
-       }
-       #right ul {
-      padding: 0;
-      display: flex;
-      flex-flow: row-reverse wrap-reverse;
-      margin: 0%;
-      
-      
-       }
-
-       .style {
-        margin-right: 2rem;
-        font-size: 1.5vw;
-        text-decoration:underline;
-        color:#1C6EA4;
-        
-
-       }
-       .style:hover{
-        opacity: 0.5;
+    margin: 7rem auto;
+    width: 110vh;
+    background-color: grey;
+    color:#fff
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-clip: border-box;
     
-       }
-       .none * {
-        list-style: none;
-       }
-      
-        #COMMUNICATION{
-          display:inline;
-          flex-wrap: nowra
-           color:#000;
-           text-align:center;
-
-
-          }
-          .comm{
-            color:#1C6EA4;
-            margin:0px 30px 10px 0px;
-          }
-     .comm:hover{
-    opacity: ,5;
+    background-repeat:no-repeat;
+    background-size: cover;
+    
   }
   
+  h1{
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 4rem;
+      border: 18px ridge #1C6EA4
+         }
+         
+         img{
+            border: 5px solid #555;
+            border-radius: 5px;
+           cursor: pointer;
+           transition: 0.3s;
+           border-radius: 50%;
+           display: block;
+        
+         
+         }
+         #right ul {
+        padding: 0;
+        display: flex;
+        flex-flow: row-reverse wrap-reverse;
+        margin: 0%;
+        
+        
+         }
+  
+         .style {
+          margin-right: 2rem;
+          font-size: 1.5vw;
+          color:#1C6EA4;
+          text-decoration: underline;
+          
+  
+         }
+         .style:hover{
+          opacity: 0.5;
+      
+         }
+         .none * {
+          list-style: none;
+         }
+        
+          #COMMUNICATION{
+          
+             color:#000;
+             text-align:center;
+  
+  
+            }
+            .comm{
+              color:#1C6EA4;
+              margin:0px 30px 10px 0px;
+            }
+       
+    .comm:hover{
+      opacity: ,5;
+    }
