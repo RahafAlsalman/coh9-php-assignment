@@ -16,9 +16,9 @@ class Student
     
         $validation = $this->validate_student_information($student_info);
         if ($validation != true)
-        
+        {
             return $validation;
-    
+        }
         $name=$student_info['name'];
         $email=$student_info['email'];
         $phone=$student_info['phone'];
