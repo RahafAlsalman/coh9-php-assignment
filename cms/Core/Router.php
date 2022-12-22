@@ -2,6 +2,8 @@
 
 namespace Core;
 
+use Core\Base\View;
+
 /**
  * Manages the routing process in the application
  */
@@ -41,13 +43,15 @@ class Router
 
         if (empty($routes) || !array_key_exists($request, $routes)) {
             http_response_code(404);
-            die("Page does not exists!");
+            new View('404'); // This page is in the views directory
+            exit;
         }
 
         $controller_namespace = 'Core\\Controller\\';
         $class_arr = explode('.', $routes[$request]);
         $class_name = ucfirst($class_arr[0]);
         $class = $controller_namespace . $class_name;
+    
 
         $instence = new $class;
 
