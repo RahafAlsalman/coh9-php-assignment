@@ -1,0 +1,54 @@
+<?php
+
+namespace Core\Controller;
+
+use Core\Base\Controller;
+use Core\Model\Post;
+use Core\Model\Item;
+
+
+class Front extends Controller
+{
+    public function render()
+    {
+        if (!empty($this->view))
+            $this->view();
+    }
+
+    function __construct()
+    {
+      //  $this->admin_view(false);
+    }
+
+    /**
+     * List all news
+     *
+     * @return void
+     */
+    // public function index()
+    // {
+    //     $this->view = 'home';
+    //     $post = new Post();
+    //     $this->data['posts'] = $post->get_all();
+        
+    // }
+
+    public function single()
+    {
+        $this->view = 'single';
+        $post = new Post();
+        $this->data['post'] = $post->get_by_id($_GET['id']);
+    }
+
+//    public function transaction()
+//    {
+//     $this->view = 'transactions.create';
+//    }
+ function test_ajax()
+   {
+       $this->view = "transactions.index";
+       $item = new Item; // new model items.
+        $this->data['items'] = $item->get_all();
+   }
+}
+
